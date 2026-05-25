@@ -1,0 +1,35 @@
+.container {
+    min-height: 100vh;
+    background-image: url("/1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.header__img {
+    height: 140px;
+    transform: translateY(-10px);
+    transition: 0.2s ease;
+}
+
+.header__img:hover {
+    transform: translateY(-16px);
+}
+
+@media (max-width: 500px) {
+    .container {
+        background-image: url("/background-page-mobile.png");
+        min-height: 100dvh;
+        overflow-x: hidden;
+        background-size: 100% auto;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+}

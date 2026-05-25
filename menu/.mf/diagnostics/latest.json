@@ -1,0 +1,26 @@
+{
+  "bundler": {
+    "name": "webpack"
+  },
+  "mfConfig": {
+    "name": "menu",
+    "exposes": {
+      "./Menu": "./src/components/menu"
+    }
+  },
+  "latestErrorEvent": {
+    "code": "BUILD-001",
+    "message": "Failed to find expose module. #BUILD-001\nargs: {\"exposeModules\":[{\"name\":\"./Menu\",\"module\":null,\"request\":\"./src/components/menu\"}],\"FEDERATION_WEBPACK_PATH\":\"/var/home/Clique/Documents/EBAC/Micro Frontends Restaurant Menu/menu/node_modules/webpack/lib/index.js\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/build#build-001",
+    "args": {
+      "exposeModules": [
+        {
+          "name": "./Menu",
+          "module": null,
+          "request": "./src/components/menu"
+        }
+      ],
+      "FEDERATION_WEBPACK_PATH": "/var/home/Clique/Documents/EBAC/Micro Frontends Restaurant Menu/menu/node_modules/webpack/lib/index.js"
+    },
+    "timestamp": 1779112941564
+  }
+}
